@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing:border-box ;
+}
+ a{
+    text-decoration: none;
+ }
+
+header nav .logo{
+    float: left;
+}
+
+
+header nav ul{
+    float: right;
+    list-style: none ;
+}
+
+header nav ul li{
+    float: left;
+}
+
+.container{
+width: 80%;
+margin: auto;
+}
+
+header{
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(../images/bg-masthead.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+header nav .logo a{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 20px;
+    font-weight: 900;
+    transition: 1.5s;
+}
+header nav{
+    padding: 15px 0px;
+}
+header nav ul li a{
+    font-size: 15px;
+    padding: 0 15px;
+    color: rgba(255, 255, 255, 0.7);
+    text-transform: capitalize;
+    font-weight: 700;
+    transition: 0.5s
+}
+.logo:hover a{
+color: white;
+
+}
+nav ul li a:hover{
+    color:#F79540;
+    
+}
+
+.text{
+    color: white;
+    text-align: center;
+    width: 66.7%;
+    margin: 200px auto;
+}
+.text h1{
+    font-size: 55px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.text hr{
+    width: 60px;
+    height: 4px;
+    border: none;
+    background-color:#F79540;
+    
+    margin:25px auto;
+}
+.text p{
+    font-size: 18.4px;
+    margin-bottom: 35px;
+}
+
+.text .find{
+    background-color:#F79540;
+    color: white;
+    padding: 20px 36px;
+    border-radius: 500px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3px;
+    transition: 0.7s;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.find:hover{
+    background-color: #a34d01;
+   
+}
+/* service START */
+.service-section{
+padding: 120px;
+}
+
+.service-section .service-title{
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.service .service-item{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.service-item i{
+    font-size: 35px;
+    color:rgb(124, 76, 76);
+
+}
+/* service end */
+
+
+/* need start */
+
+.need-section{
+    padding: 120px;
+    background: #a34d01;
+    width: 100%;
+    height: 70vh;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+
+
+}
+.need-section .need-title{
+    text-align: center;
+    color: black;
+}
+
+
+.need-title hr{
+    width: 60px;
+    height: 4px;
+    margin: 25px auto;
+    border: none;
+    background-color:#c5bab0;}
+    
+.need-section h2{
+        font-size: 2rem;
+       color:white;
+       font-weight: 500;
+    line-height: 1.2;
+    }
+.need-section p{
+        color: rgba(255, 255, 255, 0.75) !important;
+        margin-bottom: 3.5rem !important;
+        text-align: center !important;
+        margin: 0 24px;
+        box-sizing: border-box; }
+
+.need-section a{color: rgba(117, 69, 180, 0.7);
+        font-size: 20px;
+        font-weight: 900;
+        transition: 1.5s;}
+        
+    
+.need-title a{
+    background-color:white;
+    border-radius: 500px;
+    padding: 20px 36px;
+    letter-spacing: 2px;
+       
+    }
+     .need-title a:hover{
+       background-color: black;
+    }
+    .service-section hr{
+        width: 60px;
+        height: 4px;
+        margin: 25px auto;
+        border: none;
+        background-color:#c5bab0;
+    }
+
+.free-section{
+    padding: 120px;
+    color:  rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+    width: 100%;
+    height: 70vh;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
